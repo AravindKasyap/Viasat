@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .navbar
+      {
+          background:white;
+          height:auto;
+          border-bottom:solid black;
+          
+      }
+      .nav-content-style
+      {
+          color:white;
+      }
+    span:hover{
+        background-attachment: green;
+    }
+    .navbar-brand {
+  background: url(logo.png)center / contain no-repeat;
+  width: 150px;
+  height:100px;
+
+}
+.container-fluid
+{
+    width: 100%;
+}
+textarea {
+  width: 100%;
+}
+.back
+{
+  background:url(image.jpg);  
+    
+}
+</style>
+<body class="">
+        <section id="nv">
+        <nav class="navbar navbar-fixed-top ">
+                <div class="container">
+                  <div class="navbar-header">
+                    <a class="navbar-brand " href="#" style="font-family: cursive;"></a>
+                  </div>
+                  <ul class="nav navbar-nav navbar-right"style="margin-top:30px;">
+                          <li style="margin-right: 0px;"><a class="nav-content-style"href="AfterLoginMajor.html"  style="margin: 0px 0px;color:black;font-size:20px;"><span class="glyphicon glyphicon-comment" style="font-size:20px;"></span>  Info</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </section>
+            <hr>
+            <hr>
+              <div class="container-fluid row" style="margin-top:90px;width:100%">
+                <div class="col-md-12" >
+                        
+                    <div class="col-md-1" ></div>
+                    
+                    <div class="col-md-10 back" style="border-radius:10px;border-radius: 10px;border:2px solid black;box-shadow:10px 10px  5px grey;">
+                            <div class="container-fluid" style="background: black;border-bottom: 1px solid blue;">
+                                    <h1 style="font-size: 25px;color:white;text-align: center">Hand Over Form</h1>
+                                   </div>
+                       <form style="margin-top:20px;">
+                           <div class=" col-md-12"> 
+                               <div class="col-md-1"></div>
+                               <div class="col-md-10">
+                                    <div class="form-group col-md-4">
+                                   
+                                    <input type="number" class="form-control" id="email" placeholder="M3 logs" style="border: 2px solid black"required>
+                                  </div>
+                                  <div class="form-group col-md-4">
+                                    
+                                    <input type="number" class="form-control" id="pwd" placeholder="S4 logs"style="border: 2px solid black"required>
+                                  </div>
+                                  <div class="form-group col-md-4">
+                                    
+                                        <input type="number" class="form-control" id="pwd" placeholder="Splunk logs"style="border: 2px solid black"required>
+                                      </div>
+                                      <div class="col-md-12">
+                                          <div class="form-group">
+                                    
+                                        <textarea type="text" row="10" class="form-control" id="pwd" placeholder="Important Updates"style="border: 2px solid black" maxlength="3000"></textarea>
+                                      </div>
+
+                                      </div>
+                                      <div class="col-md-12">
+                                            <div class="form-group">
+                                      
+                                          <textarea type="text" row="10" class="form-control" id="pwd" placeholder="Log Requests"style="border: 2px solid black" maxlength="3000"></textarea>
+                                        </div>
+  
+                                        </div>
+                                        <div class="col-md-12">
+                                                <div class="form-group">
+                                          
+                                              <textarea type="text" row="10" class="form-control" id="pwd" placeholder="Instructions"style="border: 2px solid black" maxlength="3000"></textarea>
+                                            </div>
+      
+                                            </div>
+                                            <div class="col-md-12">
+                                                    <div class="form-group">
+                                              
+                                                  <textarea type="text" row="10" class="form-control" id="pwd" placeholder="Log Collection Pending"style="border: 2px solid black" maxlength="3000"></textarea>
+                                                </div>
+          
+                                                </div>
+                                                <div class="col-md-12">
+                                                        <div class="form-group">
+                                                  
+                                                      <textarea type="text" row="10" class="form-control" id="pwd" placeholder="New SFP's"style="border: 2px solid black" maxlength="3000"></textarea>
+                                                    </div>
+              
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                            <div class="form-group">
+                                                      
+                                                          <textarea type="text" row="10" class="form-control" id="pwd" placeholder="Other Updates"style="border: 2px solid black" maxlength="3000"></textarea>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                                <div class="form-group col-md-4">
+                                                               
+                                                                <input type="number" class="form-control" id="email" placeholder="RMQ Shovel" style="border: 2px solid black"required>
+                                                              </div>
+                                                              <div class=" col-md-4">
+                                                                
+                                                              </div>
+                                                              <div class="form-group col-md-4">
+                                                                
+                                                                    <input type="number" class="form-control" id="pwd" placeholder="Profile Reset"style="border: 2px solid black"required>
+                                                                  </div>
+                            
+                                                                </div>   
+                                                                
+                                                                <div class="col-md-12"> 
+                                                                       
+                                                                             <div class="form-group col-md-4">
+                                                                            
+                                                                             <input type="number" class="form-control" id="email" placeholder="Received Cases" style="border: 2px solid black">
+                                                                           </div>
+                                                                           <div class="form-group col-md-4">
+                                                                             
+                                                                             <input type="number" class="form-control" id="pwd" placeholder="Created Cases"style="border: 2px solid black"required>
+                                                                           </div>
+                                                                           <div class="form-group col-md-4">
+                                                                             
+                                                                                 <input type="number" class="form-control" id="pwd" placeholder="Cases Transfered"style="border: 2px solid black">
+                                                                               </div>
+                                                                               
+                                                            </div>
+                  
+                                                        </div>
+                                                        <div class="col-md-1"></div>
+                               <center><button class="btn" style="background: lightgreen;width:25%;text-align:center;margin-top: 30px;margin-bottom:30px;font-weight: bolder;font-size: 20px"> Submit</button></center>
+                                
+                       </form>
+
+                    </div>
+                </div>
+                    </div>
+              
+
+
+     
+
+    </body>
+    </html>
